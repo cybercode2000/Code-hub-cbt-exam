@@ -1,0 +1,242 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.heading {
+    width: 100%;
+    display: inline-flex;
+    padding-left: 40px;
+    position: center;
+    font-family: arial;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+
+
+}
+
+ .firstpart {
+    display: inline-flex;
+    float: left; 
+}
+
+.firstpart img{
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.secondpart img {
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    outline: 2px solid gray;
+}
+
+.word {
+    display: inline-block;
+    margin: 23px;
+    padding-bottom: 5px;
+    width: 300px;
+    font-family: arial;
+}
+
+.word p {
+    font-size: 25px;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+
+ .heading #span {
+    color: rgb(27, 90, 19);
+    width: 150px;
+    display: block;
+    font-size: 15px;
+    
+   
+}
+
+.secondpart {
+    display: inline-flex;
+    margin-left: 28%;
+    
+}
+
+.word2 {
+    margin: 25px;
+
+    
+}
+.word2 p, .word p{
+    margin-bottom: 6px;
+}
+
+.word2 span {
+    margin-left: 8px;
+    font-family: arial;
+}
+
+.heading2 {
+    width: 100%;
+    background-color: rgb(204, 118, 47);
+    height: 30px;
+    margin: 0px;
+    padding: 15px;
+    font-family: arial;
+    font-size: 14px;
+    width: 100%;
+}
+.heading3 {
+    background: linear-gradient(rgba(0, 0, 5, 0.625),rgba(0, 0, 5, 0.582)), url('green-chameleon-s9CC2SKySJM-unsplash.jpg');
+    background-size: cover;
+    height: 71vh;
+    width: 100%;
+    background-position: center;
+}
+form {
+    width: 360px;
+    height: 350px;
+    background: white;
+    color: black;
+    top: 66%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+form p {
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+
+}
+label {
+    font-family: arial;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid gray;
+    margin-top: 5px;
+    padding-left: 12px;
+    background: transparent;
+    height: 40px;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+}
+button {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(204, 118, 47);
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+    width: 105%;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background: blue;
+    color: #000;
+}
+
+.heading2 p {
+    font-family: arial;
+    font-size: 15px;
+    padding: 2px;
+    padding-bottom: 2px;
+}
+
+footer {
+    color: black;
+    margin-top: 65px;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+input:focus {
+    background: black;
+    color: white;
+}
+#me {
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+#link {
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#error {
+    width: 95%;
+    height: 25px;
+    outline: 1px solid red;
+    padding: 3px;
+    color: red;
+    text-align: left;
+    font-family: arial;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#intro {
+    padding-top: 15px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contain {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.heading4 {
+    border: 4px solid rgb(204, 118, 47);
+    height: 70vh;
+
+}
+
+.heading3 p{
+    font-family: arial;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.heading5 p{
+    text-decoration: none;
+    text-align: left;
+    padding: 20px;
+    font-weight: normal;
+    font-family: poppins;
+    font-size: 18px;
+    margin-top: 10px;
+}
