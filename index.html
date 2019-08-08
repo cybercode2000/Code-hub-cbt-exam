@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="the easy way for a beginner to test their standard before they can proceed to another programming language">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <title>Code Hub Cbt System</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
 </head>
 <body>
     <div class="container">
@@ -33,22 +34,47 @@
             <p>Please kindly Fill in your details to start the Exam</p>
         </div>
         <div class="heading3">
-            <form>
+                <div class="error">Incorrect matric number or Password</div>
+            <form id="forming" class="form">
                 <p>Login</p>
                 <div id="error">pls kindly enter a valid matric number and password</div>
-                <label> Matric Number
-                    <input id="matric" type="text" placeholder="Matric Number">
+                <label class="label"> Matric Number
+                    <input class="input" required id="matric" type="text" placeholder="Matric Number">
                 </label>
-                <label> Password
-                        <input type="password" id="password" placeholder="Input your password here">
+                <label class="label"> Password
+                        <input class="input" required type="password" id="password" placeholder="Input your password here">
                 </label>
-                <button id="login"><a id="link" href="#">Login</a></button>
-                <footer>Code Hub &copy All Right Reserved <br>Design by Damicode</footer>               
-            </form>
+                <button class="button9" id="login"><a id="link" href="#">Login</a></button>
+                </form>
             
         </div>
         </div>
-        
-    <script src="app.js"></script>
+        <footer class="heading2" style="padding-top: 20px; height: 25px; font-family: san-serif; font-size: 15px; color: black;">Code Hub &copy All Right Reserved Design by Damicode</footer>               
+    <script>
+    let username = document.querySelector('#matric');
+    let password = document.querySelector('#password');
+    let btn = document.querySelector('#login');
+    let link = document.querySelector('#link');
+    let err = document.querySelector('.error');
+    let forming = document.querySelector('#forming');
+    let logoutlink = document.querySelector('#logoutlink');
+
+
+
+
+link.addEventListener('click', function(){
+    let matricnuumber = ['17/7cs/081', '17/7cs/082', '17/7cs/083', '17/7cs/084'];
+    let pass = ['damilare', 'koko', 'code', 'cybercode'];
+    if(username.value === matricnuumber[0] && password.value === pass[0] || username.value === matricnuumber[1] && password.value === pass[1] || username.value === matricnuumber[2] && password.value === pass[2] || username.value === matricnuumber[3] && password.value === pass[3] || username.value === matricnuumber[4] && password.value === pass[4])
+        link.href="instructionpage.html";
+    else
+    {
+        forming.style.top = '70%';
+        err.style.display = 'block';
+        username.style.border = '1px solid Red';
+        password.style.border = '1px solid Red';
+    }
+});
+    </script>
 </body>
 </html>

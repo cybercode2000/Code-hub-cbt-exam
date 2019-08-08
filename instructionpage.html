@@ -28,18 +28,33 @@
                 </div>
                 </div>
         
-                <div class="heading2">
+                <div class="heading6">
                     <p><b id="me">System Number</b>: <i>CEDC1</i></p>
+                    <p id="logout"><a id="logoutlink" href="#">Log out</a></p>
                 </div>
                 <div class="heading4">
-                    <div class="heading3">
-                    <p>Welcome to the Instruction Page</p>
-                <div class="heading5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iure fuga ad suscipit tempore libero corporis, animi impedit laudantium esse voluptatibus unde aliquid eveniet quibusdam eius eos modi officia tempora nisi facere. Ullam odio sit, inventore rerum, eligendi repellat nisi tenetur debitis deserunt soluta aut vel necessitatibus voluptates cumque nam.</p>
+                    <div class="heading5">
+                    <p id="intro">Welcome to the Instruction Page</p>
+                        <p id="introp">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis hic suscipit harum, porro id repellat incidunt corrupti, officia maiores sed architecto modi, qui aliquid nulla. Omnis ad quos corporis a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti, quasi incidunt, adipisci rerum sapiente, totam illum tempore pariatur asperiores vel mollitia laudantium! Quasi omnis soluta porro dolore! Harum, magni. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum repellat accusamus ea tempore pariatur saepe, officiis voluptates hic magni quos blanditiis repellendus, quod dolores quidem ad architecto facere. Voluptas, adipisci!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio inventore reprehenderit suscipit voluptate! Eaque molestias animi blanditiis porro, tempore quaerat quas sequi, assumenda perspiciatis vel unde possimus eveniet ratione nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo possimus provident labore nam repudiandae reprehenderit quas enim perferendis optio! Quasi quos vitae mollitia obcaecati nihil rem explicabo iste perspiciatis esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iure fuga ad suscipit tempore libero corporis, animi impedit laudantium esse voluptatibus unde aliquid eveniet quibusdam eius eos modi officia tempora nisi facere. Ullam odio sit, inventore rerum, eligendi repellat nisi tenetur debitis deserunt soluta aut vel necessitatibus voluptates cumque nam.</p>
+                           <p id="one"><span>Total question:</span> 5</p>
+                           <p id="one"><span>Time:</span> 15 minutes</p>
+                           <p id="one"><span>Mark:</span> 2 marks per question</p>
 
+                           <button class="button"><a href="firstpage.html">Start the exercise</a></button>
+                    </div>
                     </div>    
                     </div>
                 </div>
-        <script src="app.js"></script>
+        
+                <footer class="heading2" style="padding-top: 20px; height: 20px; font-family: arial; font-size: 15px; color: black;">Code Hub &copy All Right Reserved Design by Damicode</footer>
+        <script>
+            document.querySelector('#logout').addEventListener('click', function(){
+    if(confirm('are you sure you want to log out') == true)
+    logoutlink.href = 'index.html';
+    else
+    logoutlink.href = '#';
+});
+        </script>
 </body>
 </html>
