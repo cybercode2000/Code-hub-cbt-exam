@@ -219,8 +219,10 @@ input:focus {
 }
 
 .heading4 {
-    border: 4px solid rgba(69, 159, 189, 0.918);
-    height: 75vh;
+    border: 50px solid rgba(69, 159, 189, 0.918);
+    height: 280vh;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 
@@ -353,4 +355,12 @@ a {
 
 center span {
     font-size: 40px;
+}
+
+.damilare {
+    border: 90px solid rgba(69, 159, 189, 0.918);
+    height: 50vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: none;
 }
